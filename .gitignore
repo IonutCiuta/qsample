@@ -21,8 +21,6 @@ resources/PARC/configs/local/
 # build output
 target/*
 
-# tool output
-output
 
 # intellij project
 *.iml

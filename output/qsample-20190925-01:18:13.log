@@ -1,0 +1,29 @@
+Processing all documents in example/documents/
+Need CoreNLP pipeline, initializing ...
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+ ... done with CoreNLP initialization.
+Loading perceptron model from resources/PARC/models/predpipeline.models
+
+Using SemiMarkov model
+Sampling 
+ 1
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+             exact                                                                              || partial
+             ALL            | DIRECT         | INDIRECT       | MIXED          | cue            || ALL            | DIRECT         | INDIRECT       | MIXED         
+             P    R    F    | P    R    F    | P    R    F    | P    R    F    | P    R    F    || P    R    F    | P    R    F    | P    R    F    | P    R    F   
+INIT TEST    0.00 1.00 0.00 | 0.00 1.00 0.00 | 0.00 1.00 0.00 | 1.00 1.00 1.00 | 1.00 1.00 1.00 || 0.00 1.00 0.00 | 0.00 1.00 0.00 | 0.00 1.00 0.00 | 1.00 1.00 1.00 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Predicting
+Sampling 
+ 1
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+               exact                                                                              || partial
+               ALL            | DIRECT         | INDIRECT       | MIXED          | cue            || ALL            | DIRECT         | INDIRECT       | MIXED         
+               P    R    F    | P    R    F    | P    R    F    | P    R    F    | P    R    F    || P    R    F    | P    R    F    | P    R    F    | P    R    F   
+FINAL  TEST    0.00 1.00 0.00 | 0.00 1.00 0.00 | 0.00 1.00 0.00 | 1.00 1.00 1.00 | 1.00 1.00 1.00 || 0.00 1.00 0.00 | 0.00 1.00 0.00 | 0.00 1.00 0.00 | 1.00 1.00 1.00 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Wrote predictions to output
